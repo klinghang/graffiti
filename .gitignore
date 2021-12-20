@@ -1,10 +1,10 @@
-# Binaries for programs and plugins
+k8s_customize_controller# Binaries for programs and plugins
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
-
+*.idea
 # Test binary, built with `go test -c`
 *.test
 
