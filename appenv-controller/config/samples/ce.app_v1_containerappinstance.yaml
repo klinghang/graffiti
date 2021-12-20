@@ -1,0 +1,6 @@
+apiVersion: ce.app.klh.com/v1
+kind: ContainerAppInstance
+metadata:
+  name: containerappinstance-sample
+spec:
+  # TODO(user): Add fields here

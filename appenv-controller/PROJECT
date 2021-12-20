@@ -1,0 +1,16 @@
+domain: klh.com
+layout:
+- go.kubebuilder.io/v3
+multigroup: true
+projectName: appenv-controller
+repo: appenv-controller
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: klh.com
+  group: ce.app
+  kind: ContainerAppInstance
+  path: appenv-controller/apis/ce.app/v1
+  version: v1
+version: "3"

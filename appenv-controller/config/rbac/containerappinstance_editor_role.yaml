@@ -1,0 +1,24 @@
+# permissions for end users to edit containerappinstances.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: containerappinstance-editor-role
+rules:
+- apiGroups:
+  - ce.app.klh.com
+  resources:
+  - containerappinstances
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - ce.app.klh.com
+  resources:
+  - containerappinstances/status
+  verbs:
+  - get
